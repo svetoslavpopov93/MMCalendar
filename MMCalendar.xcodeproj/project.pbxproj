@@ -1,0 +1,501 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B5A2AEC1B72122400CABE5C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B5A2AEB1B72122400CABE5C /* main.m */; };
+		4B5A2AEF1B72122400CABE5C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B5A2AEE1B72122400CABE5C /* AppDelegate.m */; };
+		4B5A2AF51B72122400CABE5C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B5A2AF31B72122400CABE5C /* Main.storyboard */; };
+		4B5A2AF71B72122400CABE5C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B5A2AF61B72122400CABE5C /* Images.xcassets */; };
+		4B5A2AFA1B72122400CABE5C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B5A2AF81B72122400CABE5C /* LaunchScreen.xib */; };
+		4B5A2B061B72122400CABE5C /* MMCalendarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B5A2B051B72122400CABE5C /* MMCalendarTests.m */; };
+		4B5A2B161B7213FF00CABE5C /* MMCalendarMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B5A2B151B7213FF00CABE5C /* MMCalendarMainViewController.m */; };
+		4BE735901B960F9D00818B28 /* MMEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BE7358F1B960F9D00818B28 /* MMEvent.m */; };
+		4BE7DEC81B821BDF00D03717 /* MMAddNewEventViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BE7DEC71B821BDF00D03717 /* MMAddNewEventViewController.m */; };
+		4BEC817F1B97072500FEE13C /* MMAccordionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BEC817E1B97072500FEE13C /* MMAccordionView.m */; };
+		4BEDE8091B7B80A700EEB8B7 /* MMCalendarTopBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BEDE8081B7B80A700EEB8B7 /* MMCalendarTopBarView.m */; };
+		4BEDE80C1B7B9B4800EEB8B7 /* MMCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BEDE80B1B7B9B4800EEB8B7 /* MMCalendarView.m */; };
+		4BEDE8121B7B9C2800EEB8B7 /* MMCalendarScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BEDE8111B7B9C2800EEB8B7 /* MMCalendarScrollView.m */; };
+		4BF6686E1B723A3300EE1AF5 /* MMCalendarCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BF6686D1B723A3300EE1AF5 /* MMCalendarCellView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4B5A2B001B72122400CABE5C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B5A2ADE1B72122400CABE5C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B5A2AE51B72122400CABE5C;
+			remoteInfo = MMCalendar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4B5A2AE61B72122400CABE5C /* MMCalendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MMCalendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B5A2AEA1B72122400CABE5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B5A2AEB1B72122400CABE5C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4B5A2AED1B72122400CABE5C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4B5A2AEE1B72122400CABE5C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4B5A2AF41B72122400CABE5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4B5A2AF61B72122400CABE5C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4B5A2AF91B72122400CABE5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		4B5A2AFF1B72122400CABE5C /* MMCalendarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MMCalendarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B5A2B041B72122400CABE5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B5A2B051B72122400CABE5C /* MMCalendarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMCalendarTests.m; sourceTree = "<group>"; };
+		4B5A2B141B7213FF00CABE5C /* MMCalendarMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MMCalendarMainViewController.h; path = Controllers/MMCalendarMainViewController.h; sourceTree = "<group>"; };
+		4B5A2B151B7213FF00CABE5C /* MMCalendarMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MMCalendarMainViewController.m; path = Controllers/MMCalendarMainViewController.m; sourceTree = "<group>"; };
+		4BE7358E1B960F9D00818B28 /* MMEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMEvent.h; sourceTree = "<group>"; };
+		4BE7358F1B960F9D00818B28 /* MMEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMEvent.m; sourceTree = "<group>"; };
+		4BE7DEC61B821BDF00D03717 /* MMAddNewEventViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MMAddNewEventViewController.h; path = Controllers/MMAddNewEventViewController.h; sourceTree = "<group>"; };
+		4BE7DEC71B821BDF00D03717 /* MMAddNewEventViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MMAddNewEventViewController.m; path = Controllers/MMAddNewEventViewController.m; sourceTree = "<group>"; };
+		4BEC817D1B97072500FEE13C /* MMAccordionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MMAccordionView.h; path = Views/MMAccordionView.h; sourceTree = "<group>"; };
+		4BEC817E1B97072500FEE13C /* MMAccordionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MMAccordionView.m; path = Views/MMAccordionView.m; sourceTree = "<group>"; };
+		4BEDE8071B7B80A700EEB8B7 /* MMCalendarTopBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MMCalendarTopBarView.h; path = Views/MMCalendarTopBarView.h; sourceTree = "<group>"; };
+		4BEDE8081B7B80A700EEB8B7 /* MMCalendarTopBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MMCalendarTopBarView.m; path = Views/MMCalendarTopBarView.m; sourceTree = "<group>"; };
+		4BEDE80A1B7B9B4800EEB8B7 /* MMCalendarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MMCalendarView.h; path = Views/MMCalendarView.h; sourceTree = "<group>"; };
+		4BEDE80B1B7B9B4800EEB8B7 /* MMCalendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MMCalendarView.m; path = Views/MMCalendarView.m; sourceTree = "<group>"; };
+		4BEDE8101B7B9C2800EEB8B7 /* MMCalendarScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MMCalendarScrollView.h; path = Views/MMCalendarScrollView.h; sourceTree = "<group>"; };
+		4BEDE8111B7B9C2800EEB8B7 /* MMCalendarScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MMCalendarScrollView.m; path = Views/MMCalendarScrollView.m; sourceTree = "<group>"; };
+		4BF6686C1B723A3300EE1AF5 /* MMCalendarCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MMCalendarCellView.h; path = Views/MMCalendarCellView.h; sourceTree = "<group>"; };
+		4BF6686D1B723A3300EE1AF5 /* MMCalendarCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MMCalendarCellView.m; path = Views/MMCalendarCellView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4B5A2AE31B72122400CABE5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B5A2AFC1B72122400CABE5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B5A2ADD1B72122400CABE5C = {
+			isa = PBXGroup;
+			children = (
+				4B5A2AE81B72122400CABE5C /* MMCalendar */,
+				4B5A2B021B72122400CABE5C /* MMCalendarTests */,
+				4B5A2AE71B72122400CABE5C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4B5A2AE71B72122400CABE5C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4B5A2AE61B72122400CABE5C /* MMCalendar.app */,
+				4B5A2AFF1B72122400CABE5C /* MMCalendarTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4B5A2AE81B72122400CABE5C /* MMCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				4BF668681B7237B100EE1AF5 /* Views */,
+				4B5A2AED1B72122400CABE5C /* AppDelegate.h */,
+				4B5A2AEE1B72122400CABE5C /* AppDelegate.m */,
+				4B5A2AF31B72122400CABE5C /* Main.storyboard */,
+				4B5A2AF61B72122400CABE5C /* Images.xcassets */,
+				4B5A2AF81B72122400CABE5C /* LaunchScreen.xib */,
+				4B5A2AE91B72122400CABE5C /* Supporting Files */,
+				4B5A2B171B72140700CABE5C /* Controllers */,
+				4BE7358D1B960F3100818B28 /* Helper */,
+			);
+			path = MMCalendar;
+			sourceTree = "<group>";
+		};
+		4B5A2AE91B72122400CABE5C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4B5A2AEA1B72122400CABE5C /* Info.plist */,
+				4B5A2AEB1B72122400CABE5C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4B5A2B021B72122400CABE5C /* MMCalendarTests */ = {
+			isa = PBXGroup;
+			children = (
+				4B5A2B051B72122400CABE5C /* MMCalendarTests.m */,
+				4B5A2B031B72122400CABE5C /* Supporting Files */,
+			);
+			path = MMCalendarTests;
+			sourceTree = "<group>";
+		};
+		4B5A2B031B72122400CABE5C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4B5A2B041B72122400CABE5C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4B5A2B171B72140700CABE5C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4B5A2B141B7213FF00CABE5C /* MMCalendarMainViewController.h */,
+				4B5A2B151B7213FF00CABE5C /* MMCalendarMainViewController.m */,
+				4BE7DEC61B821BDF00D03717 /* MMAddNewEventViewController.h */,
+				4BE7DEC71B821BDF00D03717 /* MMAddNewEventViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		4BE7358D1B960F3100818B28 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				4BE7358E1B960F9D00818B28 /* MMEvent.h */,
+				4BE7358F1B960F9D00818B28 /* MMEvent.m */,
+			);
+			name = Helper;
+			sourceTree = "<group>";
+		};
+		4BF668681B7237B100EE1AF5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4BEDE8101B7B9C2800EEB8B7 /* MMCalendarScrollView.h */,
+				4BEDE8111B7B9C2800EEB8B7 /* MMCalendarScrollView.m */,
+				4BF6686C1B723A3300EE1AF5 /* MMCalendarCellView.h */,
+				4BF6686D1B723A3300EE1AF5 /* MMCalendarCellView.m */,
+				4BEDE8071B7B80A700EEB8B7 /* MMCalendarTopBarView.h */,
+				4BEDE8081B7B80A700EEB8B7 /* MMCalendarTopBarView.m */,
+				4BEDE80A1B7B9B4800EEB8B7 /* MMCalendarView.h */,
+				4BEDE80B1B7B9B4800EEB8B7 /* MMCalendarView.m */,
+				4BEC817D1B97072500FEE13C /* MMAccordionView.h */,
+				4BEC817E1B97072500FEE13C /* MMAccordionView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4B5A2AE51B72122400CABE5C /* MMCalendar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B5A2B091B72122400CABE5C /* Build configuration list for PBXNativeTarget "MMCalendar" */;
+			buildPhases = (
+				4B5A2AE21B72122400CABE5C /* Sources */,
+				4B5A2AE31B72122400CABE5C /* Frameworks */,
+				4B5A2AE41B72122400CABE5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MMCalendar;
+			productName = MMCalendar;
+			productReference = 4B5A2AE61B72122400CABE5C /* MMCalendar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4B5A2AFE1B72122400CABE5C /* MMCalendarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B5A2B0C1B72122400CABE5C /* Build configuration list for PBXNativeTarget "MMCalendarTests" */;
+			buildPhases = (
+				4B5A2AFB1B72122400CABE5C /* Sources */,
+				4B5A2AFC1B72122400CABE5C /* Frameworks */,
+				4B5A2AFD1B72122400CABE5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B5A2B011B72122400CABE5C /* PBXTargetDependency */,
+			);
+			name = MMCalendarTests;
+			productName = MMCalendarTests;
+			productReference = 4B5A2AFF1B72122400CABE5C /* MMCalendarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B5A2ADE1B72122400CABE5C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Svetoslav Popov";
+				TargetAttributes = {
+					4B5A2AE51B72122400CABE5C = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					4B5A2AFE1B72122400CABE5C = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 4B5A2AE51B72122400CABE5C;
+					};
+				};
+			};
+			buildConfigurationList = 4B5A2AE11B72122400CABE5C /* Build configuration list for PBXProject "MMCalendar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4B5A2ADD1B72122400CABE5C;
+			productRefGroup = 4B5A2AE71B72122400CABE5C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4B5A2AE51B72122400CABE5C /* MMCalendar */,
+				4B5A2AFE1B72122400CABE5C /* MMCalendarTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4B5A2AE41B72122400CABE5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B5A2AF51B72122400CABE5C /* Main.storyboard in Resources */,
+				4B5A2AFA1B72122400CABE5C /* LaunchScreen.xib in Resources */,
+				4B5A2AF71B72122400CABE5C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B5A2AFD1B72122400CABE5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4B5A2AE21B72122400CABE5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B5A2AEF1B72122400CABE5C /* AppDelegate.m in Sources */,
+				4BEC817F1B97072500FEE13C /* MMAccordionView.m in Sources */,
+				4BEDE8091B7B80A700EEB8B7 /* MMCalendarTopBarView.m in Sources */,
+				4BE735901B960F9D00818B28 /* MMEvent.m in Sources */,
+				4B5A2AEC1B72122400CABE5C /* main.m in Sources */,
+				4BF6686E1B723A3300EE1AF5 /* MMCalendarCellView.m in Sources */,
+				4B5A2B161B7213FF00CABE5C /* MMCalendarMainViewController.m in Sources */,
+				4BEDE80C1B7B9B4800EEB8B7 /* MMCalendarView.m in Sources */,
+				4BE7DEC81B821BDF00D03717 /* MMAddNewEventViewController.m in Sources */,
+				4BEDE8121B7B9C2800EEB8B7 /* MMCalendarScrollView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B5A2AFB1B72122400CABE5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B5A2B061B72122400CABE5C /* MMCalendarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4B5A2B011B72122400CABE5C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B5A2AE51B72122400CABE5C /* MMCalendar */;
+			targetProxy = 4B5A2B001B72122400CABE5C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4B5A2AF31B72122400CABE5C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B5A2AF41B72122400CABE5C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4B5A2AF81B72122400CABE5C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B5A2AF91B72122400CABE5C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4B5A2B071B72122400CABE5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4B5A2B081B72122400CABE5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4B5A2B0A1B72122400CABE5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MMCalendar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4B5A2B0B1B72122400CABE5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MMCalendar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4B5A2B0D1B72122400CABE5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MMCalendarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MMCalendar.app/MMCalendar";
+			};
+			name = Debug;
+		};
+		4B5A2B0E1B72122400CABE5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MMCalendarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MMCalendar.app/MMCalendar";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B5A2AE11B72122400CABE5C /* Build configuration list for PBXProject "MMCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B5A2B071B72122400CABE5C /* Debug */,
+				4B5A2B081B72122400CABE5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B5A2B091B72122400CABE5C /* Build configuration list for PBXNativeTarget "MMCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B5A2B0A1B72122400CABE5C /* Debug */,
+				4B5A2B0B1B72122400CABE5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B5A2B0C1B72122400CABE5C /* Build configuration list for PBXNativeTarget "MMCalendarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B5A2B0D1B72122400CABE5C /* Debug */,
+				4B5A2B0E1B72122400CABE5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4B5A2ADE1B72122400CABE5C /* Project object */;
+}
