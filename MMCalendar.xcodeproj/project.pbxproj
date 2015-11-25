@@ -17,6 +17,11 @@
 		4BE735901B960F9D00818B28 /* MMEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BE7358F1B960F9D00818B28 /* MMEvent.m */; };
 		4BE7DEC81B821BDF00D03717 /* MMAddNewEventViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BE7DEC71B821BDF00D03717 /* MMAddNewEventViewController.m */; };
 		4BEC817F1B97072500FEE13C /* MMAccordionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BEC817E1B97072500FEE13C /* MMAccordionView.m */; };
+		4BEC97891BA0858F00AA349F /* SVPCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BEC97821BA0858F00AA349F /* SVPCellView.m */; };
+		4BEC978A1BA0858F00AA349F /* SVPSectionCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BEC97841BA0858F00AA349F /* SVPSectionCellView.m */; };
+		4BEC978B1BA0858F00AA349F /* SVPSectionHeaderCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BEC97861BA0858F00AA349F /* SVPSectionHeaderCellView.m */; };
+		4BEC978C1BA0858F00AA349F /* SVPSectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BEC97881BA0858F00AA349F /* SVPSectionView.m */; };
+		4BEC978F1BA0866400AA349F /* SVPAccordion.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BEC978E1BA0866400AA349F /* SVPAccordion.m */; };
 		4BEDE8091B7B80A700EEB8B7 /* MMCalendarTopBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BEDE8081B7B80A700EEB8B7 /* MMCalendarTopBarView.m */; };
 		4BEDE80C1B7B9B4800EEB8B7 /* MMCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BEDE80B1B7B9B4800EEB8B7 /* MMCalendarView.m */; };
 		4BEDE8121B7B9C2800EEB8B7 /* MMCalendarScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BEDE8111B7B9C2800EEB8B7 /* MMCalendarScrollView.m */; };
@@ -53,6 +58,17 @@
 		4BE7DEC71B821BDF00D03717 /* MMAddNewEventViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MMAddNewEventViewController.m; path = Controllers/MMAddNewEventViewController.m; sourceTree = "<group>"; };
 		4BEC817D1B97072500FEE13C /* MMAccordionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MMAccordionView.h; path = Views/MMAccordionView.h; sourceTree = "<group>"; };
 		4BEC817E1B97072500FEE13C /* MMAccordionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MMAccordionView.m; path = Views/MMAccordionView.m; sourceTree = "<group>"; };
+		4BEC97811BA0858F00AA349F /* SVPCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SVPCellView.h; path = Views/SVPCellView.h; sourceTree = "<group>"; };
+		4BEC97821BA0858F00AA349F /* SVPCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SVPCellView.m; path = Views/SVPCellView.m; sourceTree = "<group>"; };
+		4BEC97831BA0858F00AA349F /* SVPSectionCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SVPSectionCellView.h; path = Views/SVPSectionCellView.h; sourceTree = "<group>"; };
+		4BEC97841BA0858F00AA349F /* SVPSectionCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SVPSectionCellView.m; path = Views/SVPSectionCellView.m; sourceTree = "<group>"; };
+		4BEC97851BA0858F00AA349F /* SVPSectionHeaderCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SVPSectionHeaderCellView.h; path = Views/SVPSectionHeaderCellView.h; sourceTree = "<group>"; };
+		4BEC97861BA0858F00AA349F /* SVPSectionHeaderCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SVPSectionHeaderCellView.m; path = Views/SVPSectionHeaderCellView.m; sourceTree = "<group>"; };
+		4BEC97871BA0858F00AA349F /* SVPSectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SVPSectionView.h; path = Views/SVPSectionView.h; sourceTree = "<group>"; };
+		4BEC97881BA0858F00AA349F /* SVPSectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SVPSectionView.m; path = Views/SVPSectionView.m; sourceTree = "<group>"; };
+		4BEC978D1BA0866400AA349F /* SVPAccordion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVPAccordion.h; sourceTree = "<group>"; };
+		4BEC978E1BA0866400AA349F /* SVPAccordion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVPAccordion.m; sourceTree = "<group>"; };
+		4BEC97901BA0867800AA349F /* SVPConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVPConstants.h; sourceTree = "<group>"; };
 		4BEDE8071B7B80A700EEB8B7 /* MMCalendarTopBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MMCalendarTopBarView.h; path = Views/MMCalendarTopBarView.h; sourceTree = "<group>"; };
 		4BEDE8081B7B80A700EEB8B7 /* MMCalendarTopBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MMCalendarTopBarView.m; path = Views/MMCalendarTopBarView.m; sourceTree = "<group>"; };
 		4BEDE80A1B7B9B4800EEB8B7 /* MMCalendarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MMCalendarView.h; path = Views/MMCalendarView.h; sourceTree = "<group>"; };
@@ -102,6 +118,7 @@
 		4B5A2AE81B72122400CABE5C /* MMCalendar */ = {
 			isa = PBXGroup;
 			children = (
+				4BEC97901BA0867800AA349F /* SVPConstants.h */,
 				4BF668681B7237B100EE1AF5 /* Views */,
 				4B5A2AED1B72122400CABE5C /* AppDelegate.h */,
 				4B5A2AEE1B72122400CABE5C /* AppDelegate.m */,
@@ -161,9 +178,27 @@
 			name = Helper;
 			sourceTree = "<group>";
 		};
+		4BEC97911BA086D200AA349F /* SVPAccordion */ = {
+			isa = PBXGroup;
+			children = (
+				4BEC978D1BA0866400AA349F /* SVPAccordion.h */,
+				4BEC978E1BA0866400AA349F /* SVPAccordion.m */,
+				4BEC97811BA0858F00AA349F /* SVPCellView.h */,
+				4BEC97821BA0858F00AA349F /* SVPCellView.m */,
+				4BEC97831BA0858F00AA349F /* SVPSectionCellView.h */,
+				4BEC97841BA0858F00AA349F /* SVPSectionCellView.m */,
+				4BEC97851BA0858F00AA349F /* SVPSectionHeaderCellView.h */,
+				4BEC97861BA0858F00AA349F /* SVPSectionHeaderCellView.m */,
+				4BEC97871BA0858F00AA349F /* SVPSectionView.h */,
+				4BEC97881BA0858F00AA349F /* SVPSectionView.m */,
+			);
+			name = SVPAccordion;
+			sourceTree = "<group>";
+		};
 		4BF668681B7237B100EE1AF5 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				4BEC97911BA086D200AA349F /* SVPAccordion */,
 				4BEDE8101B7B9C2800EEB8B7 /* MMCalendarScrollView.h */,
 				4BEDE8111B7B9C2800EEB8B7 /* MMCalendarScrollView.m */,
 				4BF6686C1B723A3300EE1AF5 /* MMCalendarCellView.h */,
@@ -278,15 +313,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4BEC978C1BA0858F00AA349F /* SVPSectionView.m in Sources */,
+				4BEC978F1BA0866400AA349F /* SVPAccordion.m in Sources */,
+				4BEC978A1BA0858F00AA349F /* SVPSectionCellView.m in Sources */,
 				4B5A2AEF1B72122400CABE5C /* AppDelegate.m in Sources */,
 				4BEC817F1B97072500FEE13C /* MMAccordionView.m in Sources */,
 				4BEDE8091B7B80A700EEB8B7 /* MMCalendarTopBarView.m in Sources */,
+				4BEC97891BA0858F00AA349F /* SVPCellView.m in Sources */,
 				4BE735901B960F9D00818B28 /* MMEvent.m in Sources */,
 				4B5A2AEC1B72122400CABE5C /* main.m in Sources */,
 				4BF6686E1B723A3300EE1AF5 /* MMCalendarCellView.m in Sources */,
 				4B5A2B161B7213FF00CABE5C /* MMCalendarMainViewController.m in Sources */,
 				4BEDE80C1B7B9B4800EEB8B7 /* MMCalendarView.m in Sources */,
 				4BE7DEC81B821BDF00D03717 /* MMAddNewEventViewController.m in Sources */,
+				4BEC978B1BA0858F00AA349F /* SVPSectionHeaderCellView.m in Sources */,
 				4BEDE8121B7B9C2800EEB8B7 /* MMCalendarScrollView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
